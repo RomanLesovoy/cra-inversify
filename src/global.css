@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+.App-header {
+    margin-bottom: 15px;
+}
+
+.App-header a {
+    color: white;
+    margin-right: 10px;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.App > .MuiPaper-root {
+    margin: 20px;
+}
+
+.container-app {
+    min-height: 80vh;
+    width: calc(100% - 30px);
+    margin: 10px auto;
+    max-width: 1200px;
+}
